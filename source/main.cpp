@@ -29,7 +29,7 @@
 #endif
 
 #ifndef VERSION_MICRO
-#define VERSION_MICRO 0
+#define VERSION_MICRO 1
 #endif
 
 static constexpr int SCREEN_W = 1280;
@@ -809,8 +809,6 @@ static void draw_preview(SDL_Renderer* renderer, Fonts* fonts, BootMode boot_mod
     const SDL_Color mode_color = hekate ? COLOR_ACCENT_RED : COLOR_ACCENT;
     draw_neon_panel(renderer, area, 8, mode_color);
 
-    fill_rect(renderer, {558, 134, 300, 4}, COLOR_ACCENT);
-    fill_rect(renderer, {858, 134, 300, 4}, COLOR_ACCENT_RED);
     draw_text(renderer, fonts->section, "Bootlogo preview", 558, 160, COLOR_TEXT);
 
     SDL_Rect frame_outer = hekate
