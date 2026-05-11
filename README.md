@@ -80,3 +80,7 @@ The previous Hekate bootlogo is backed up to:
 ```text
 /switch/CustomBootScreen/_hekate_bootlogo_backup.bmp
 ```
+
+## Credits
+
+SpaceVue is made by **estyxq**.
