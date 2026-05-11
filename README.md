@@ -16,6 +16,11 @@ The app creates this directory and its two preset subdirectories automatically o
   hekate-bootlogo/
 ```
 
+## Tutorials
+
+- [Hekate bootlogo tutorial](tutorial/hekate-bootlogo-tutorial.md)
+- [Switch CFW bootlogo tutorial](tutorial/switch-bootlogo-tutorial.md)
+
 ## Switch CFW Bootlogo
 
 Each Atmosphere/Switch CFW boot screen preset is one subdirectory under `switch-bootlogo`:
