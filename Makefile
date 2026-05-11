@@ -11,8 +11,8 @@ include $(DEVKITPRO)/libnx/switch_rules
 
 #---------------------------------------------------------------------------------
 VERSION_MAJOR := 1
-VERSION_MINOR := 2
-VERSION_MICRO := 1
+VERSION_MINOR := 3
+VERSION_MICRO := 0
 
 APP_TITLE	:=	CustomBootScreen
 APP_AUTHOR	:=	estyxq
@@ -22,9 +22,9 @@ APP_ICON	:=	icon.jpg
 TARGET		:=	$(subst $e ,_,$(notdir $(APP_TITLE)))
 OUTDIR		:=	out/${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_MICRO}
 BUILD		:=	build
-SOURCES		:=	source
+SOURCES		:=	source source/app
 DATA		:=	data
-INCLUDES	:=	include
+INCLUDES	:=	include source/app
 ROMFS		:=	romfs
 
 #---------------------------------------------------------------------------------
